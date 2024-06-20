@@ -145,7 +145,7 @@ python pair_contrast/pair_contrast_train.py \
 ```
 
 # Evaluation
-We include code to use AlignScore (for factual consistency) and UniEval (for coherence, fluency and relevance). We recommend creating separate conda environments for them to avoid potential conflict with the model training environment. See [`evaluation/align_score.py`](evaluation/align_score.py) and [`evaluation/unieval.py`](evaluation/unieval.py) for more details. 
+We include code to use [AlignScore](https://github.com/yuh-zha/AlignScore) (for factual consistency) and [UniEval](https://github.com/maszhongming/UniEval) (for coherence, fluency and relevance). We recommend creating separate conda environments for them to avoid potential conflict with the model training environment. See [`evaluation/align_score.py`](evaluation/align_score.py) and [`evaluation/unieval.py`](evaluation/unieval.py) for more details. 
 
 We follow the official instruction of [G-Eval](https://github.com/nlpyang/geval) to calculate factual consistency using OpenAI API.
 
